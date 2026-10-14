@@ -1,6 +1,9 @@
-# Player-supplied artwork and audio never belongs in the repository.
-assets/original/*
-!assets/original/README.md
-
-.DS_Store
-node_modules/
+bin/
+obj/
+publish/
+*.user
+.vs/
+.idea/
+*.swp
+smoke*.log
+TestResults/
