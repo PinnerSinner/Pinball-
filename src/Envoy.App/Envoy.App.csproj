@@ -11,6 +11,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <!-- Required by the LibraryImport (P/Invoke source generator) declarations in Interop/Native.cs. -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AssemblyName>Envoy</AssemblyName>
     <RootNamespace>Envoy.App</RootNamespace>
     <ApplicationIcon>Assets\envoy.ico</ApplicationIcon>
